@@ -1,0 +1,137 @@
+﻿/* BG */
+body {
+    background: radial-gradient(circle at top left, #001040, #000018);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper */
+.melee-wrapper {
+    width: min(1200px, 95%);
+    margin: 30px auto;
+}
+
+/* HEADER SECTION */
+.melee-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* "Trophies" */
+.header-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    margin-right: 20px;
+}
+
+/* GALLERY HEADER (LONG POLYGON) */
+.header-gallery {
+    position: relative;
+    flex: 1;
+}
+
+.gallery-svg {
+    width: 100%;
+    height: 70px;
+}
+
+/* polygon colors */
+.gallery-bg {
+    fill: #11472e;
+}
+
+.gallery-outline {
+    fill: none;
+    stroke: #63ff9a;
+    stroke-width: 14;
+}
+
+/* "Gallery" text */
+.gallery-text {
+    position: absolute;
+    top: 14px;
+    left: 120px;
+    font-size: 36px;
+    font-weight: bold;
+    transform: skewX(-15deg);
+    color: #b7ff98;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* BODY LAYOUT */
+.melee-body {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* Trophy left */
+.left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Trophy */
+.trophy-image img {
+    width: 300px;
+    filter: drop-shadow(0 0 25px rgba(255,255,255,0.4));
+}
+
+.trophy-shadow {
+    width: 220px;
+    height: 35px;
+    background: radial-gradient(ellipse, rgba(0,0,0,0.75), transparent);
+    border-radius: 50%;
+    margin: -20px auto 0;
+}
+
+/* RIGHT SIDE */
+.right-side {
+    flex: 1.2;
+}
+
+/* Trophy name - correct slant */
+.trophy-name {
+    font-size: 68px;
+    font-weight: bold;
+    color: #ffd93c;
+    text-shadow: 2px 2px 4px black;
+    transform: skewX(-24deg);
+    margin-bottom: 15px;
+}
+
+/* DESCRIPTION - NO BOX, NO BG */
+.trophy-desc {
+    font-size: 20px;
+    line-height: 1.35;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+/* GAME BOX */
+.game-box {
+    width: 340px;
+    border: 3px solid #3fff9e;
+    padding: 14px 18px;
+    background: #001b1b;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,255,150,0.25);
+}
+
+.game-top {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.game-bottom {
+    font-size: 20px;
+    color: #c5ffff;
+}
