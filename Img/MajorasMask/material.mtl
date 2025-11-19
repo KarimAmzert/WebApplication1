@@ -1,0 +1,47 @@
+# Blender MTL File: 'MajorasMask_2.blend'
+# Material Count: 4
+newmtl tex__1__png_tex_(1).png_tex_(1).png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex (1).png
+
+
+newmtl tex__2__png_tex_(2).png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex (2).png
+
+
+newmtl tex__4__png_tex_(8).png_tex_(4).png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex (4).png
+map_Bump tex (8).png
+
+
+newmtl tex__7__png_tex_(7).png_tex_(7).png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex (7).png
+
+
